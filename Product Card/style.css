@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFDD0;
+}
+.container{
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+    min-width: none;
+}
+.card-image{
+    border-radius: 20px 0 0 20px;
+    height: 100%;
+}
+
+.box{
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    width:500px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    box-shadow: 1px 1px 50px gray;
+}
+button{
+    background-color:darkgreen;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.box-text{
+    margin: 20px;
+}
+.add{
+    color:white;
+}
+.price{
+    color: darkgreen;
+    font-weight:900;
+    font-size: xx-large;
+}
+
+@media (max-width:684px)
+{
+    .box{
+        overflow: auto;
+    }
+}
